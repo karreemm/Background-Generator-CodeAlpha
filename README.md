@@ -12,13 +12,15 @@ The Background Generator is a web-based tool that allows users to generate and c
    - Click the "Customize Color" button to open a color picker dialog.
    - Use the color picker to select a specific color.
    - The selected color will be applied as the background color.
+  
+3. **Try This Color:**
+   - Click the "Try This Color" button to apply the currently displayed color as the background color for the entire webpage.
 
-3. **Copy Color Code:**
+4. **Copy Color Code:**
    - The generated or customized color code is displayed in the "Color Code" input field.
    - Click the "Copy" button to copy the color code to your clipboard.
 
-4. **Try This Color:**
-   - Click the "Try This Color" button to apply the currently displayed color as the background color for the entire webpage.
+
 
 ## Demo
 
