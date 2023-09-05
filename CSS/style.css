@@ -1,0 +1,64 @@
+.PageTitle {
+  text-align: center;
+  font-size: 1.5cm;
+}
+.controls{
+    margin-top: 50px;
+}
+.color-code{
+    margin-top: 100px;
+}
+h2{
+    margin-top: 30px;
+}
+button {
+    width: 120px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #0e0f10;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #313334;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #313334;
+  }
+
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #434446;
+    box-shadow: 0 0 5px  #434446;
+  }
+
+  #color-picker{
+    display: none;
+  }
+#customize-btn{
+    margin-left: 25px;
+}
+
+#try-color-btn{
+    margin-left: 78px;
+}
+ 
+
+  p{
+    font-size:larger;
+    display: inline-block;
+  }
