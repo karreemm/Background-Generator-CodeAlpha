@@ -24,4 +24,4 @@ The Background Generator is a web-based tool that allows users to generate and c
 
 ## Demo
 
-Check out the live demo of the Background Generator [here](#) (replace with the actual demo link).
+Check out the live demo of the Background Generator [here](https://drive.google.com/file/d/1UvJLTBghL6a3pTN9zzQFq65hgY0vhObs/view?usp=drive_link) 
