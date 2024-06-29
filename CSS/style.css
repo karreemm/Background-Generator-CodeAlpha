@@ -1,64 +1,120 @@
+/* Base styles */
 .PageTitle {
   text-align: center;
-  font-size: 1.5cm;
+  font-size: 3rem; 
 }
-.controls{
-    margin-top: 50px;
+.Title{
+  font-size: 2rem; 
+  margin-top: 4rem;
 }
-.color-code{
-    margin-top: 100px;
+.controls {
+  margin-top: 3rem; 
 }
-h2{
-    margin-top: 30px;
+.color-code {
+  margin-top: 6rem; 
+}
+.color-code-controls {
+  margin-top: 1.25rem;
+}
+h2 {
+  margin-top: 1.875rem;
 }
 button {
-    width: 120px;
-    margin-left: 10px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 30px;
-    font-size: 16px;
-    background-color: #0e0f10;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  button:hover {
-    background-color: #313334;
-  }
-  
-  button:focus {
-    outline: none;
-    box-shadow: 0 0 5px #313334;
-  }
-
-  input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    font-size: 16px;
-  }
-  
-  input:focus {
-    outline: none;
-    border-color: #434446;
-    box-shadow: 0 0 5px  #434446;
-  }
-
-  #color-picker{
-    display: none;
-  }
-#customize-btn{
-    margin-left: 25px;
+  width: 120px;
+  margin-left: 0.625rem;
+  padding: 0.3125rem 0.625rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  background-color: #0e0f10;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #313334;
+}
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #313334;
+}
+input {
+  padding: 0.3125rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+  border-color: #434446;
+  box-shadow: 0 0 5px #434446;
+}
+#color-picker {
+  display: none;
+}
+#customize-btn {
+  margin-left: 1.5625rem;
+}
+#try-color-btn {
+  margin-left: 4.875rem;
+}
+p {
+  font-size: larger;
+  display: inline-block;
 }
 
-#try-color-btn{
-    margin-left: 78px;
-}
- 
-
-  p{
-    font-size:larger;
-    display: inline-block;
+@media (max-width: 768px) {
+  .PageTitle {
+    font-size: 1.8rem; 
   }
+  .Title {
+    font-size: 1.5rem; 
+    margin-top: 3rem;
+  }
+  .controls, .color-code, .color-code-controls {
+    margin-top: 2rem; 
+  }
+  .colorCodeFont{
+    font-size: 1.5rem;
+  }
+  button {
+    margin-left: 0.5rem;
+  }
+  #customize-btn {
+    margin-left: 1.5rem;
+  }
+  #try-color-btn {
+    margin-left: 4.5rem; 
+  }
+  #generate-btn {
+    margin-left: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .PageTitle {
+    font-size: 1.8rem; 
+  }
+  .Title {
+    font-size: 1.2rem; 
+    margin-top: 3rem;
+  }
+  .colorCodeFont{
+    font-size: 1.2rem;
+  }
+  .controls, .color-code, .color-code-controls {
+    margin-top: 1.5rem; 
+  }
+  button {
+    font-size: 0.875rem;
+  }
+  #customize-btn {
+    margin-left: 1.6rem;
+  }
+  #try-color-btn {
+    margin-left: 4.8rem; 
+  }
+  #generate-btn {
+    margin-left: 1rem; 
+  }
+}
