@@ -1,94 +1,118 @@
-/* Base styles */
+body {
+  background-image: linear-gradient(to right, #662D8C , #ED1E79);
+}
 .PageTitle {
   text-align: center;
   font-size: 3rem; 
+  color: #fff;
 }
 .Title{
   font-size: 2rem; 
   margin-top: 4rem;
+  color: #fff;
 }
 .controls {
-  margin-top: 3rem; 
+  margin-top: 6rem; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#Background-space {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5%;
+  display: inline-block;
+  border: 0.2rem solid #fff;
+  transition: all 0.5s ease-in-out;
+}
+#Background-space:hover {
+  box-shadow: 0 0 10px #fff;
+  transform: scale(1.1);
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
 }
 .color-code {
-  margin-top: 6rem; 
+  margin-top: 5rem; 
 }
 .color-code-controls {
   margin-top: 1.25rem;
+  gap: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 h2 {
   margin-top: 1.875rem;
 }
 button {
-  width: 120px;
+  width: 17rem;
+  height: 3rem;
   margin-left: 0.625rem;
-  padding: 0.3125rem 0.625rem;
+  padding: 0.8rem 1.2rem;
   border: none;
   border-radius: 30px;
-  font-size: 1rem;
-  background-color: #0e0f10;
-  color: #fff;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  color: #070707;
   cursor: pointer;
   font-weight: bold;
 }
 button:hover {
-  background-color: #313334;
+  background-color: #dde4e8;
 }
 button:focus {
   outline: none;
   box-shadow: 0 0 5px #313334;
 }
-input {
-  padding: 0.3125rem;
-  border: 1px solid #ccc;
-  border-radius: 30px;
-  font-size: 1rem;
-}
-input:focus {
-  outline: none;
-  border-color: #434446;
-  box-shadow: 0 0 5px #434446;
-}
 #color-picker {
   display: none;
 }
-#customize-btn {
-  margin-left: 1.5625rem;
-}
-#try-color-btn {
-  margin-left: 4.875rem;
+#copy-btn {
+  display: inline-block;
+  height: 3rem;
 }
 p {
   font-size: larger;
   display: inline-block;
 }
 
+
 @media (max-width: 768px) {
   .PageTitle {
     font-size: 1.8rem; 
   }
-  .Title {
-    font-size: 1.5rem; 
-    margin-top: 3rem;
+  .controls{
+    margin-top: 4rem; 
   }
-  .controls, .color-code, .color-code-controls {
+  .color-code-controls {
     margin-top: 2rem; 
+  }
+  .color-code {
+    margin-top: 3rem; 
   }
   .colorCodeFont{
     font-size: 1.5rem;
   }
   button {
-    margin-left: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
   }
-  #customize-btn {
-    margin-left: 1.5rem;
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
   }
-  #try-color-btn {
-    margin-left: 4.5rem; 
+  #Background-space {
+    height: 20rem;
+    width: 20rem;
   }
-  #generate-btn {
-    margin-left: 1rem; 
-  }
+
 }
 
 @media (max-width: 480px) {
@@ -102,19 +126,18 @@ p {
   .colorCodeFont{
     font-size: 1.2rem;
   }
-  .controls, .color-code, .color-code-controls {
+  .controls{
+    margin-top: 4rem;
+  }
+   .color-code-controls {
     margin-top: 1.5rem; 
+  }
+  .color-code {
+    margin-top: 4rem; 
   }
   button {
     font-size: 0.875rem;
+    padding: 0.4rem 0.7rem;
   }
-  #customize-btn {
-    margin-left: 1.6rem;
-  }
-  #try-color-btn {
-    margin-left: 4.8rem; 
-  }
-  #generate-btn {
-    margin-left: 1rem; 
-  }
+
 }
