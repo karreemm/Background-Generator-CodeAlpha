@@ -20,30 +20,25 @@
     <body>
       <div class="container">
         <div class="color-display">
-            <h1 class="PageTitle">Background Generator</h1>
-            <h1>Explore and Experiment with any color of your choice</h1>
+          <h1 class="PageTitle">Background Generator</h1>
 
           <div class="color-box"></div>
         </div>
         <div class="controls">
-          <p> Genreate Random Color:</p>  
-          <button id="generate-btn">Generate </button>
-          <br>
-          <br>
-          <p> Customize Your Color:</p>  
-          <button id="customize-btn">Customize </button>
-          <input type="color" id="color-picker" />
-          <br>
-          <br>
-          <p>Try Your Color:</p>  
-          <button id="try-color-btn">Try</button>
+          <div class="buttons">
+            <button id="generate-btn">Generate Random Color</button>
+            <button id="customize-btn">Customize Your Color</button>
+            <input type="color" id="color-picker" />
+            <button id="try-color-btn">Try The Color</button>
+            <button id="copy-btn">Copy The Color Code</button>
+
+          </div>
           
         </div>
         <div class="color-code">
-            <h2>Color Code:</h2>
-          <input type="text" id="color-code-input" readonly />
-          <button id="copy-btn">Copy</button>
-          
+          <div class="color-code-controls">
+            <div id="Background-space"></div>
+          </div>
         </div>
       </div>
 
